@@ -14,6 +14,8 @@ https://blog.openshift.com/enabling-redis-for-your-app/
 repeat = 10
 for i in range(repeat):
     print("hello world!")
+    
+# http://www.learnpython.org/
 # change this code
 mystring = "hello"
 myfloat = 10.0
