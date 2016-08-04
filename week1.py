@@ -1,3 +1,6 @@
+# 設定 /etc/init/brython-server.conf
+# 設定 /etc/nginx/sites-available/default
+# redis 自動啟動
 # 只要在 8888 虛擬機器加入 IPV4 的設定
 # 還有讓 8888 納入 IPV4 DNS 設定
 # 就可以正常與 Github API 主機透過 IPV4 交換 token 了
