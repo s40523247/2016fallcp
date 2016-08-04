@@ -14,3 +14,15 @@ https://blog.openshift.com/enabling-redis-for-your-app/
 repeat = 10
 for i in range(repeat):
     print("hello world!")
+# change this code
+mystring = "hello"
+myfloat = 10.0
+myint = 20
+
+# testing code
+if mystring == "hello":
+    print("String: %s" % mystring)
+if isinstance(myfloat, float) and myfloat == 10.0:
+    print("Float: %d" % myfloat)
+if isinstance(myint, int) and myint == 20:
+    print("Integer: %d" % myint)
