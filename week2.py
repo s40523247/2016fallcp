@@ -1,5 +1,6 @@
 # 開始透過 ggame 程式庫進行網際繪圖
-
+# ggame 手冊
+# http://brythonserver.github.io/ggame/
 from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
