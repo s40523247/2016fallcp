@@ -1,3 +1,5 @@
+import math
+
 def optionaction():
     # 最後傳回的字串為 out_string
     out_string = ""
@@ -29,10 +31,9 @@ def optionaction():
         group_list = sorted(list(filter(None, result[i])))
         #group_list = sorted(list(filter(None, result[i])), reverse=True)
         group_sorted.append(group_list)
-    if request.form["option1"]  == "遞增":
-        desc_string += "組內學號最小者為組長."
-    else:
-         desc_string += "組內學號最大者為組長."
+    # 遞增
+    desc_string += "組內學號最小者為組長."
+    #desc_string += "組內學號最大者為組長."
     # 開始進入組間組長學號排序, 根據 request.form["option2"] 的值決定遞增或遞減
     desc_string += "各組長中學號最小者為第1組."
     final_result = sorted(group_sorted)
@@ -122,5 +123,5 @@ def optionaction():
     return out_string
     # 等運算或資料處理結束後, 再將相關值送到對應的 template 進行資料的展示
     #return render_template('optionaction.html', option_list1=option_list1, option_list2=option_list2)
-    
 
+print(optionaction())
