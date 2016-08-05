@@ -100,7 +100,7 @@ def optionaction():
     seat_dict_sort = sorted(seat_dict.items(), key = operator.itemgetter(0), reverse = False)
     # 依照學號順序, 列出座位表
     out_string += "<br />按照學號次序列出座位表:<br /><br />"
-    for i in range(1, len(seat_dict_sort)):
+    for i in range(0, len(seat_dict_sort)):
         out_string +=  str(i) + ":"+ str(seat_dict_sort[i]) + "<br />"
     # 結束準備用順序列出學員座號
     # dont know why .reverse() did not work, 只有 [::-1] 可以 reverse list elements
