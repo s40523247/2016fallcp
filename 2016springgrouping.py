@@ -1,5 +1,7 @@
 # 這個分組程式由 Flask 網際程式修改而來
 import math
+# 從 browser 導入 document 與 window
+# 主要是將特定字串送到新開的 window 內容中
 from browser import document, window
 
 def optionaction():
