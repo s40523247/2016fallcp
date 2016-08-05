@@ -1,5 +1,6 @@
 # 這個分組程式由 Flask 網際程式修改而來
 import math
+from browser import document, window
 
 def optionaction():
     # 最後傳回的字串為 out_string
@@ -124,5 +125,7 @@ def optionaction():
     return out_string
     # 等運算或資料處理結束後, 再將相關值送到對應的 template 進行資料的展示
     #return render_template('optionaction.html', option_list1=option_list1, option_list2=option_list2)
-
-print(optionaction())
+# 開啟新視窗, 並將 openaction() 執行後傳回的字串, 
+# 寫到新的視窗中
+window.open().document.write(optionaction())
+#print(optionaction())
