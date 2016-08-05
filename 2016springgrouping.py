@@ -4,7 +4,14 @@ from browser import document, window
 
 def optionaction():
     # 最後傳回的字串為 out_string
-    out_string = ""
+    out_string = '''<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>分組程式</title>
+</head>
+<body>
+'''
     # 程式內需要暫時使用的 tmp_string
     tmp_string = ""
     # 傳回字串中, 用來說明排序原則的 desc_string
@@ -122,6 +129,7 @@ def optionaction():
                 out_string += "<td>&nbsp;</td>"
         out_string += "</tr>"
     out_string += "</table><br /><br /><br />"
+    out_string += "</body></html>"
     return out_string
     # 等運算或資料處理結束後, 再將相關值送到對應的 template 進行資料的展示
     #return render_template('optionaction.html', option_list1=option_list1, option_list2=option_list2)
