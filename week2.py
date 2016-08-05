@@ -1,3 +1,5 @@
+# 開始透過 ggame 程式庫進行網際繪圖
+
 from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
