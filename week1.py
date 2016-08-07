@@ -1,3 +1,91 @@
+# print() 函式用法
+##################################################
+print("Hello World!")
+# 利用 help() 列出 print 函式的用法說明
+print(help(print))
+# 利用 help() 列出 int 函式的用法說明
+print(help(int))
+# 導入 keyword 模組
+##################################################
+import keyword
+# 列出 keyword 模組的 kwlist
+print(keyword.kwlist)
+
+# Python3 的變數與資料型別
+##################################################
+# str(), int(), id(), float()
+'''
+Python has 5 standard data types namely.
+
+a) Numbers
+b) String
+c)  List
+d) Tuple
+e) Dictionary
+f)  Boolean – In Python True and False  are boolean literals.  
+'''
+# 有關 input() 的用法
+##################################################
+
+# 導入 math 模組
+##################################################
+
+import math
+print(math.pi)
+
+'''
+# http://thepythonguru.com/python-numbers/
+Python 3 support 3 different numerical types.
+
+int – for integer values like 45 .
+float – for floating point values like 2.3 .
+complex – for complex numbers like 3+2j .
+'''
+# 字串處理
+##################################################
+
+# List 數列
+##################################################
+
+# dictionary 字典
+##################################################
+
+# tuples 元組
+##################################################
+
+# control statement
+##################################################
+
+# 函式
+##################################################
+
+# 迴圈
+##################################################
+
+# File IO
+##################################################
+
+# 數學函式
+##################################################
+
+# 物件與類別
+##################################################
+
+# Operator Overloading
+#http://thepythonguru.com/python-operator-overloading/
+##################################################
+
+# 繼承與多型
+# http://thepythonguru.com/python-inheritance-and-polymorphism/
+##################################################
+
+# 例外處理
+##################################################
+
+# 模組
+##################################################
+
+# http://thepythonguru.com/running-python-programs/
 # 設定 /etc/init/brython-server.conf
 # 設定 /etc/nginx/sites-available/default
 # redis 自動啟動
@@ -11,6 +99,7 @@
 https://blog.openshift.com/enabling-redis-for-your-app/
 '''
 # 選擇一個變數, 名稱定為 repeat, 且將整數 10 與此變數對應
+'''
 repeat = 10
 for i in range(repeat):
     print("hello world!")
@@ -59,3 +148,4 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
     print("Almost there...")
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
+'''
