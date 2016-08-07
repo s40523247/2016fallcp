@@ -1,3 +1,10 @@
+# print() 函式用法
+print("Hello World!")
+print(help(print))
+print(help(int))
+
+
+# http://thepythonguru.com/running-python-programs/
 # 設定 /etc/init/brython-server.conf
 # 設定 /etc/nginx/sites-available/default
 # redis 自動啟動
@@ -11,6 +18,7 @@
 https://blog.openshift.com/enabling-redis-for-your-app/
 '''
 # 選擇一個變數, 名稱定為 repeat, 且將整數 10 與此變數對應
+'''
 repeat = 10
 for i in range(repeat):
     print("hello world!")
@@ -59,3 +67,4 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
     print("Almost there...")
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
+'''
