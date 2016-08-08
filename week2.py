@@ -355,8 +355,10 @@ Sprite(exit, (800,100))
 Sprite(exit2, (800, 100))
 
 # 決定線的起點
-Sprite(doorline, (0, 0))
+line1 = Sprite(doorline, (0, 0))
 Sprite(doorline, (10, 100))
+
+line1.x = 100
 
 Sprite(plat, (100,400))
 Sprite(plat, (650, 150))
