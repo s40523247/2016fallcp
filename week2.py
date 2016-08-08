@@ -1,6 +1,7 @@
 # 開始透過 ggame 程式庫進行網際繪圖
 # ggame 手冊
 # http://brythonserver.github.io/ggame/
+'''
 from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
@@ -20,3 +21,12 @@ Sprite(rectangle)
 
 myapp = App()
 myapp.run()
+'''
+from ggame import App, ImageAsset, Sprite
+
+# Create a displayed object at 0,0 using an image asset
+Sprite(ImageAsset("ggame/bunny.jpg"), (0,0))
+# Create the app, with a 500x500 pixel stage
+app = App(500,500)  
+# Run the app
+app.run()
