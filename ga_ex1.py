@@ -1,4 +1,5 @@
 """
+# http://lethain.com/genetic-algorithms-cool-name-damn-simple/
 # Example usage
 from genetic import *
 target = 371
