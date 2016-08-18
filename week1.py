@@ -1,3 +1,19 @@
+# 先定義函式
+# 直接列印字串的函式
+def test():
+    print("test")
+
+# 傳回字串的函式
+def test1():
+    return "test"
+    
+# 然後再呼叫
+test()
+
+# s 將接受 test1() 函式的傳回資料
+s = test1()
+print(s)
+
 # print() 函式用法
 ##################################################
 print("Hello World!")
