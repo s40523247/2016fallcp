@@ -26,6 +26,7 @@ schedule
 # 課程評量: 學員自評 (30%), 組內學員互評 (30%), 各組員 github 倉儲與靜態網誌內容評量 (40%) (此一網際課程評量程式設為電腦輔助設計實習課程 task2.py)
 '''
 reference books: (必須在電腦教室中下載)
+http://link.springer.com/book/10.1007/978-1-4842-0076-6 (Pro Git)
 http://link.springer.com/book/10.1007/978-1-4842-2172-3 (Learn to Program with Python) - 本書採用 Python 2.7, 上課時必須改為 Python3 格式
 http://link.springer.com/book/10.1007/978-3-662-49887-3 (A Primer on Scientific Programming with Python)
 http://link.springer.com/book/10.1007/978-3-319-32428-9 (Programming for Computations - Python)
