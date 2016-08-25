@@ -33,3 +33,8 @@ http://link.springer.com/book/10.1007/978-3-319-32428-9 (Programming for Computa
 http://link.springer.com/book/10.1007/978-1-4842-0553-2 (Numerical Python)
 http://link.springer.com/book/10.1007/978-1-4842-0334-7 (Pro Python)
 '''
+'''
+參考資料:
+https://github.com/tiggerntatie/brython-server (Brython, Github API, redis, gunicorn, Flask, ace.js)
+https://github.com/aroberge/reeborg (Brython, blockly, html local storage, together.js, ace.js)
+'''
