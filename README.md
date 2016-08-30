@@ -1,11 +1,18 @@
-# 2016fallcp
+# reeborg2016
+CP 課程參考用的網際程式系統
 
-mdecourse 為 mechanical design engineering course 的簡寫
+https://mdecourse.github.io/reeborg2016
 
-這裡是機械設計工程系計算機程式 2016 年秋季班的課程倉儲
+參考資料:
 
-目前這個倉儲的網際 Brython 程式是利用 http://8888.kmol.info/ 進行線上編輯與提交推送.
+http://wiki.mde.tw
 
-http://8888.kmol.info/ 採用 https://github.com/tiggerntatie/brython-server 當作網際 IDE.
+https://2014cda-mdenfu.rhcloud.com
 
-計算機程式課程的目的在讓學員能夠利用 Python3 程式解決問題.
+https://2014cdb-mdenfu.rhcloud.com
+
+https://2014c2-mdenfu.rhcloud.com
+
+http://www.cmsimply.com/get_page?heading=Reeborg%20%E6%A9%9F%E5%99%A8%E4%BA%BA
+
+
